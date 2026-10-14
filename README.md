@@ -2,12 +2,30 @@
 
 本仓库是 [PICO-Humanoid](https://github.com/pico-humanoid/pico-humanoid.github.io "访问项目主入口") 负责电气设计部分的子项目，主要涵盖电源方案、电路板设计等内容。
 
-## 电源方案
+> 加入嘉立创 PICO-Humanoid 团队：
+> https://u.lceda.cn/join?type=team&key=3ae4fa2f6dcc287a4c28ea388aabda9c&inviter=3521a3620bad4043a5a4a711afc9a91c&team_uuid=f433dbb9b1824e4bb703ed7ed252efce
+
+
+## 供电方案
+
+*Coming soon...*
+
+## PCB 方案
+
+*Coming soon...*
+
+
+---
+
+# 以下内容仅供设计参考
+
 
 - 主电源
     - 电压：48V (13S)
-    - 其他数据待调研
-
+    - 持续电流：40A（待定）
+    - 峰值电流：80A（待定）
+    - 输出端口：XT90S（待定，取决于电源板）
+    - *其他数据待调研*
 - 弱电源
     - 19V DC-DC
         - 供 Jetson Orin NX 使用
@@ -16,11 +34,10 @@
         - 供 MCU 及其他弱电设备使用
         - [参考商品](https://item.jd.com/10223872539848.html?extension_id=eyJhZCI6IjI2OCIsImNoIjoiMiIsInNrdSI6IjEwMjIzODcyNTM5ODQ0IiwidHMiOiIxNzkxODg1NTkwIiwidW5pcWlkIjoie1wiY2xpY2tfaWRcIjpcIjU1NjA5MmU5LWYzY2UtNGY4Mi1hZDExLTJhMzIxZTA3NWI5Y1wiLFwibWF0ZXJpYWxfaWRcIjpcIjc5OTk2NzQ2NTc4XCIsXCJwb3NfaWRcIjpcIjI2OFwiLFwic2lkXCI6XCIyNTA0YmY1Ni0zMmNmLTQzMjQtODk5NC1mZjNmOGFhMjg1YzNcIn0ifQ%3D%3D&jd_pop=556092e9-f3ce-4f82-ad11-2a321e075b9c&abt=0&pcdk=sZEKRLoJzNmrqGWR3qlhIMAUPQFZNMxRNPm0MqF3Z4Zqia7KWM5M5URTZtIT8HU6.rQ4a.tlbT "访问“京东”")
         
+- 弱电替代方案：使用电源板？
 
-## PCB 设计
 
-> 加入嘉立创 PICO-Humanoid 团队：
-> https://u.lceda.cn/join?type=team&key=3ae4fa2f6dcc287a4c28ea388aabda9c&inviter=3521a3620bad4043a5a4a711afc9a91c&team_uuid=f433dbb9b1824e4bb703ed7ed252efce
+
 
 ### PCB-1：分电板
 
