@@ -39,19 +39,15 @@
 
 
 
-### PCB-1：分电板
+### PCB-1：电源板
 
 - **分电板作用：**
-    - 将 48V 电池供电接口分为 12 路 xt30(2+2) 电机电源线
+    - 将 48V 电池供电接口分为若干路 xt30(2+2) 电机电源线
     - 提供弱电DC-DC模块的输入接口
-    - 12路电机CAN的集成
-- **接口建议：**
-    - 48V 输入：XT60接口
-    - 电机电源线：XT30(2+2)
-    - 弱电输出：可灵活处理
-    - CAN 接口（连接MCU主板）：采用 GH1.25 等防呆排线
+    - 电机CAN总线的集成
+- 目前采用 [RobStride 电源板](power/供电方案.md)方案
 
-### PCB-2：MCU主板
+### PCB-2：主板
 
 - **主板作用：**
     - 接受 5V 供电，为核心板供电
@@ -59,7 +55,7 @@
     - （可选）提供其他指示信息（如LED、蜂鸣器等）
 
 - MCU 采用成品开发板
-    - [参考商品](https://item.jd.com/10148987370623.html?spmTag=YTAyMTguYjAwMjQ1NS5jMDAwMDM5OTEucHJvZHVjdF9uYW1lJTQwMTc5MTg4NjI5MTkzMSUyMzE4NDIwNjEwNiUyMzcxNTczOTgwMQ)
+    - [参考商品](https://item.jd.com/10111304966647.html?pcdk=PBjdioLsvdQBcw4EGL-Bf5d-9A2-k9vF4g_KkPEucaWSmB9sjVED6bxuDoMyTGDt.3z6a.aI3x&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDcyMTAua2V5d29yZF9lbnRlciU0MDE3OTIwMzcxMDE0MTAlMjMxNzkyMDM2OTQ2MTA4OTM3MjEwNTc0JTIzMTQ0NjI1OTc3MCUyQ2EwMjQwLmIwMDI0OTMuYzAwMDA0MDI3LjIlMjNza3VfY2FyZCU0MDE3OTIxMTk5MDg0OTUlMjMxNzkyMDM2OTQ2MTA4OTM3MjEwNTc0JTIzMTg3Mzc5ODA3OQ)
     - 依据 MCU 排针布局设计主板排母
 
-        <img src="assets/mcu.png" alt="MCU" height="300">
+        <img src="assets/mcu.png" alt="MCU" height="400">
