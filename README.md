@@ -56,6 +56,8 @@
 
 - MCU 采用成品开发板
     - [参考商品](https://item.jd.com/10111304966647.html?pcdk=PBjdioLsvdQBcw4EGL-Bf5d-9A2-k9vF4g_KkPEucaWSmB9sjVED6bxuDoMyTGDt.3z6a.aI3x&spmTag=YTAyMTkuYjAwMjM1Ni5jMDAwMDcyMTAua2V5d29yZF9lbnRlciU0MDE3OTIwMzcxMDE0MTAlMjMxNzkyMDM2OTQ2MTA4OTM3MjEwNTc0JTIzMTQ0NjI1OTc3MCUyQ2EwMjQwLmIwMDI0OTMuYzAwMDA0MDI3LjIlMjNza3VfY2FyZCU0MDE3OTIxMTk5MDg0OTUlMjMxNzkyMDM2OTQ2MTA4OTM3MjEwNTc0JTIzMTg3Mzc5ODA3OQ)
+    - [数据手册](NUCLEO-G474REm32g4-nucleo64-boards-mb1367-stmicroelectronics.pdf)
     - 依据 MCU 排针布局设计主板排母
 
         <img src="assets/mcu.png" alt="MCU" height="400">
+
